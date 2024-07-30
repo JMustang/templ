@@ -5,8 +5,8 @@ import (
 	"log/slog"
 	"net/http"
 	"os"
-	"templ/cmd/handlers"
 
+	"github.com/JMustang/templ/cmd/handlers"
 	"github.com/go-chi/chi/v5"
 	"github.com/joho/godotenv"
 )
