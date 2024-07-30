@@ -1,11 +1,11 @@
 package handlers
 
 import (
-	"fmt"
 	"net/http"
+
+	"github.com/JMustang/templ/views/foo"
 )
 
 func HandleFoo(w http.ResponseWriter, r *http.Request) error {
-	w.Write([]byte("Hello, Foo!"))
-	return fmt.Errorf("error")
+	return Render(w, r, foo.Index())
 }
