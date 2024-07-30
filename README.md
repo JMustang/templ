@@ -15,3 +15,9 @@
 ```bash
 go mod init repositório-do-projeto
 ```
+
+- instalando a lib **Templ**
+
+```bash
+ go install github.com/a-h/templ/cmd/templ@latest
+```
